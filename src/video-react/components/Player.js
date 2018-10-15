@@ -155,6 +155,16 @@ export default class Player extends Component {
         order={99.0}
         {...props}
       />,
+      <React.Fragment key={props}>
+        <video
+        key="canvas_video"
+        fluid="true"
+        style={{ display: 'none' }}
+        id="canvas_video"
+        >
+          {this.props.children}
+        </video>
+      </React.Fragment>
     ];
   }
 

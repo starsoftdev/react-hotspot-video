@@ -30,7 +30,7 @@ export default (mode) => {
     }
 
     render() {
-      const { seconds, className } = this.props;
+      const { seconds } = this.props;
       const classNames = ['video-react-control', 'video-react-button', 'video-react-icon'];
       classNames.push(`video-react-icon-${mode}-${seconds}`, `video-react-${mode}-control`);
       if (this.props.className) {

@@ -38,6 +38,8 @@ export function findElPosition(el) {
   return {
     left: Math.round(left),
     top: Math.round(top),
+    width: Math.round(box.width),
+    height: Math.round(box.height),
   };
 }
 
