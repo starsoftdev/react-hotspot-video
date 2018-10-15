@@ -18,11 +18,11 @@ const hotspots = [
     time: 15,
   },
   {
-    time: 25,
+    time: 28,
   },
   {
     time: 40,
-  }
+  } 
 ];
 
 export default class ProgressControl extends Component {

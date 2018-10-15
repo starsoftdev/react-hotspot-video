@@ -111,10 +111,6 @@ export default class SeekBar extends Component {
           currentTime={time}
           duration={duration}
         />
-        <MouseTimeDisplay
-          duration={duration}
-          mouseTime={mouseTime}
-        />
         <PlayProgressBar
           currentTime={time}
           duration={duration}
